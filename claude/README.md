@@ -11,3 +11,4 @@ and API. Read the files in numbered order.
 4. [Tools & Extended Features](./04-tools-and-features.md)
 5. [Choosing a Model](./05-choosing-a-model.md)
 6. [Skills & SOPs](./06-skills-and-sops.md)
+7. [Hands-On Claude](./07-hands-on-claude.md)

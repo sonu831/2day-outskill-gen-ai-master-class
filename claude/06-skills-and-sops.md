@@ -84,5 +84,5 @@ target audience; the skill supplies the layout and structure.
 
 ---
 
-**Next:** [AI Skill Levels →](../notes/ai-skill-levels.md) · or revisit
+**Next:** [07 — Hands-On Claude](./07-hands-on-claude.md) · or revisit
 [Claude Overview](./01-claude-overview.md)
