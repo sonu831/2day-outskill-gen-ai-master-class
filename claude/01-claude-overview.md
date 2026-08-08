@@ -14,9 +14,35 @@ check the [Anthropic docs](https://docs.anthropic.com) for the current model id.
 | **Opus** | Hardest reasoning, complex coding, long agentic tasks | Slower, higher cost |
 | **Sonnet** | Balanced everyday work — most people's default | Good speed/quality balance |
 | **Haiku** | Fast, lightweight tasks, classification, high-volume | Lower capability |
+| **Fable** | Newer, smaller-footprint tier — check docs for its current niche | Newer; availability varies |
 
 Rule of thumb: start with Sonnet, move to Opus when a task needs deeper
 reasoning, drop to Haiku for cheap high-volume work.
+
+## Comparing models across providers
+
+Claude is one family among several. Each major provider ships the same *shape* —
+a fast/cheap tier, a balanced tier, and a heavy-reasoning tier:
+
+| Provider | Tiers / notable models |
+|----------|------------------------|
+| **Claude (Anthropic)** | Haiku · Sonnet · Opus · Fable |
+| **ChatGPT (OpenAI)** | Soul · Terra · Luna |
+| **Gemini (Google)** | Flash · Pro |
+| **Grok (xAI)** | Grok |
+
+> Model names change often. Remember the shape, not the exact name.
+
+Two tools to explore and compare without signing up to every provider:
+
+- **[OpenRouter](https://openrouter.ai)** — one API to 480+ models across
+  providers; browse by use case (marketing, legal, tech…) to find
+  domain-recommended models.
+- **[getmulti](https://getmulti.com)** — send one prompt to many models at once
+  and compare outputs side by side. Great for picking the best model per task.
+
+Picking the right one is covered in
+[05 — Choosing a Model](./05-choosing-a-model.md).
 
 ## What Claude can do
 
@@ -61,6 +87,7 @@ reasoning, drop to Haiku for cheap high-volume work.
 - How do I actually call the API? (→ next file)
 - What parameters control the output?
 - How do I structure prompts that work reliably?
+- Which model should I pick for a given job? (→ [05 — Choosing a Model](./05-choosing-a-model.md))
 
 ---
 

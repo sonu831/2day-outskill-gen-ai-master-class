@@ -15,6 +15,25 @@ Input:    "The cat sat on the"
 Model →   predicts "mat" (most likely next token)
 ```
 
+## The 5-step internal process
+
+Internally, one "generate the next token" pass runs through five stages. The
+rest of this note unpacks each one.
+
+1. **Tokenization** — split the input text into tokens (sub-word pieces).
+2. **Embeddings** — map each token to a vector of numbers that captures meaning.
+3. **Transformer / Self-Attention** — every token "looks at" every other token
+   to build context-aware representations; this is where meaning is assembled.
+4. **Prediction** — output a probability for every possible next token.
+5. **Response generation** — sample one token, append it, and loop back to
+   step 1 until a stop condition is hit.
+
+```
+text → [Tokenize] → [Embed] → [Transformer/Attention] → [Predict] → [Pick token] → loop
+```
+
+The sections below expand each step.
+
 ## Tokens, not words
 
 Models don't read whole words. Text is split into **tokens** — sub-word pieces.

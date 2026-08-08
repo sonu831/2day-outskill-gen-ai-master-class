@@ -13,6 +13,8 @@ path. Write in your own words — that's where the understanding sticks.
 
 ## Files
 
+- [AI Skill Levels](./ai-skill-levels.md) — the AI-fluency ladder from the mastermind
+
 Add new Markdown files here as your notes grow, e.g.:
 
 - `glossary.md` — your running glossary

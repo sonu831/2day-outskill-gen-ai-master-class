@@ -43,6 +43,31 @@ This often improves accuracy on math, logic, and multi-step problems.
 - Set limits: "maximum 3 sentences", "don't use jargon".
 - Tell it what to do if unsure: "If you're not sure, say you don't know."
 
+## Prompt engineering vs context engineering
+
+A useful split from the mastermind:
+
+- **Prompt engineering** — the *instructions*: what the model should do, in what
+  format, with what constraints. (Everything in "Core principles" above.)
+- **Context engineering** — the *background* the task lives in: who's asking, the
+  domain, prior facts, reference docs. Poor context is the #1 cause of bad
+  outputs — the model guesses the world when you don't supply it.
+
+### The 5 layers of context
+
+Layer context deliberately, from outermost to innermost:
+
+| Layer | What it gives the model | Example |
+|-------|-------------------------|---------|
+| **Identity** | Who the model is, and who you are | "You are a tax CPA; I'm a freelancer in India." |
+| **World** | Domain rules, facts, reference docs | "GST is 18% for my services; here are my invoices." |
+| **Task** | The specific job to do | "Compute my quarterly GST liability." |
+| **Examples** | The desired input→output pattern | "Invoice → {tax, rate, amount} …" |
+| **Constraints** | Limits and guardrails | "Cite line items; say 'unsure' if data is missing." |
+
+Stack all five and the model rarely guesses wrong on the *shape* of the answer.
+The template at the end of this note is built from these layers.
+
 ## Patterns that work
 
 | Pattern | When to use |

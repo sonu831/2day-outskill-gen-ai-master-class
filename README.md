@@ -1,7 +1,9 @@
-# OU Skills — Generative AI & Claude Learning Repo
+# Outskill — Generative AI & Claude Mastermind Notes
 
-A personal learning repository for studying **Generative AI** and building with **Claude**.
-Work through the topics top-to-bottom. Each folder has its own notes in Markdown.
+A personal learning repository built from the **Outskill** Generative AI / Claude AI
+mastermind. It captures the mastermind's concepts and adds hands-on notes for
+building with **Claude**. Work through the topics top-to-bottom; each folder has
+its own notes in Markdown.
 
 ## Learning Path
 
@@ -22,10 +24,13 @@ Apply the foundations using Anthropic's Claude models and APIs.
 2. [Using the Claude API](./claude/02-api-basics.md) — requests, messages, parameters
 3. [Prompt Engineering with Claude](./claude/03-prompting-claude.md) — system prompts, roles, examples
 4. [Tools & Extended Features](./claude/04-tools-and-features.md) — tool use, long context, projects
+5. [Choosing a Model](./claude/05-choosing-a-model.md) — tier-to-task, OpenRouter, getmulti
+6. [Skills & SOPs](./claude/06-skills-and-sops.md) — reusable instruction recipes, DocX/PPTX
 
 ### [Part 3 — Personal Notes](./notes/README.md)
 Free-form notes, summaries, and experiments.
 
+- [AI Skill Levels](./notes/ai-skill-levels.md) — the AI-fluency ladder from the mastermind
 - [My Notes](./notes/) — your own running notes as you learn
 
 ## How to Use This Repo

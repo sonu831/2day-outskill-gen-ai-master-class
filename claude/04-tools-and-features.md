@@ -85,6 +85,25 @@ in a dedicated **thinking block** before the final answer.
 - Claude shows its reasoning, then produces the response.
 - Pairs well with "think step by step" prompting.
 
+### Reasoning models
+
+Some models are tuned to reason explicitly — they spend extra tokens "thinking"
+before answering. Think of them as the heavy-reasoning tier used for hard calls:
+architecture trade-offs, multi-constraint decisions, deep debugging, research
+synthesis. Reach for **Claude Opus with extended thinking** when a wrong answer
+is expensive and a right one is worth the extra latency and cost.
+
+**When to use a reasoning model:**
+
+- The answer depends on several constraints or sequential steps.
+- A mistake is costly (money, safety, reputation).
+- The task resists a single-shot answer and benefits from being worked out.
+
+**When not to:**
+
+- Simple formatting, classification, or high-volume calls → use a fast tier.
+- You need minimum latency — thinking adds time and tokens.
+
 ## Vision (images)
 
 Send images as content blocks inside a `user` message:
@@ -128,5 +147,5 @@ This loop is the backbone of most Claude-based agents.
 
 ---
 
-**Next:** [Personal Notes →](../notes/) · or revisit
+**Next:** [05 — Choosing a Model](./05-choosing-a-model.md) · or revisit
 [Generative AI Foundations](../generative-ai/README.md)
