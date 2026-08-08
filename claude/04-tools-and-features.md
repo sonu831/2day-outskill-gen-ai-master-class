@@ -24,6 +24,8 @@ tools = [{
 }]
 ```
 
+![ ](image.png)
+
 ### 2. Claude returns a `tool_use` block
 
 `stop_reason` becomes `"tool_use"`, and `content` contains a block like:
@@ -88,8 +90,7 @@ in a dedicated **thinking block** before the final answer.
 ### Reasoning models
 
 Some models are tuned to reason explicitly — they spend extra tokens "thinking"
-before answering (e.g., Claude Opus, Gemini Pro, GPT-5.5 with extended
-thinking). Think of them as the heavy-reasoning tier used for hard calls:
+before answering. Think of them as the heavy-reasoning tier used for hard calls:
 architecture trade-offs, multi-constraint decisions, deep debugging, research
 synthesis. Reach for **Claude Opus with extended thinking** when a wrong answer
 is expensive and a right one is worth the extra latency and cost.
@@ -130,9 +131,6 @@ Good for diagrams, screenshots, scanned documents, UI review.
   so a workspace has persistent knowledge.
 
 ## Putting it together: a simple agent loop
-
-> New to agents? See [What is an AI Agent?](../notes/what-is-an-ai-agent.md) for
-> the perceive → think → act → achieve framing.
 
 1. Read the user request.
 2. Call `messages.create` with tools.

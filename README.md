@@ -5,11 +5,13 @@ mastermind. It captures the mastermind's concepts and adds hands-on notes for
 building with **Claude**. Work through the topics top-to-bottom; each folder has
 its own notes in Markdown.
 
-![Agentic AI: A Complete Framework — concentric rings from AI/ML to Agentic AI](image.png)
-→ Full breakdown: [Agentic AI: A Complete Framework](./notes/agentic-ai-framework.md)
+![alt text](image.png)
 
-![LLM vs RAG vs AI Agent vs Agentic AI — the four layers of intelligence](image-1.png)
-→ Full breakdown: [LLM vs RAG vs AI Agent vs Agentic AI](./notes/llm-rag-agent-agentic.md)
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 ## Learning Path
 
@@ -32,17 +34,12 @@ Apply the foundations using Anthropic's Claude models and APIs.
 4. [Tools & Extended Features](./claude/04-tools-and-features.md) — tool use, long context, projects
 5. [Choosing a Model](./claude/05-choosing-a-model.md) — tier-to-task, OpenRouter, getmulti
 6. [Skills & SOPs](./claude/06-skills-and-sops.md) — reusable instruction recipes, DocX/PPTX
-7. [Hands-On Claude](./claude/07-hands-on-claude.md) — file analysis, Artifacts, Chrome extension
 
 ### [Part 3 — Personal Notes](./notes/README.md)
 Free-form notes, summaries, and experiments.
 
 - [AI Skill Levels](./notes/ai-skill-levels.md) — the AI-fluency ladder from the mastermind
 - [AI Tools Demonstrated](./notes/ai-tools.md) — practical AI tools by workflow
-- [Agentic AI: A Complete Framework](./notes/agentic-ai-framework.md) — the 5-ring AI→Agentic map
-- [LLM vs RAG vs AI Agent vs Agentic AI](./notes/llm-rag-agent-agentic.md) — the 4-layer intelligence stack
-- [What is an AI Agent?](./notes/what-is-an-ai-agent.md) — perceive → think → act → achieve
-- [Agent-Human Architecture](./notes/agent-human-architecture.md) — the 4 human roles as agents do more
 - [My Notes](./notes/) — your own running notes as you learn
 
 ## How to Use This Repo
